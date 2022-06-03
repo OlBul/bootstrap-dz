@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <title>bootstrap</title>
+</head>
+
+<body>
+  <div class="header bg-danger">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-transporent">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Garden</a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Галлерея</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Контакты</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Поробнее
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main py-5">
+    <h3 class="fs-3 mb-5 text-center">О нас</h3>
+    <div class="container">
+      <div class="row gap-3 justify-content-between">
+        <div class="col-lg-3 col-md-5 border px-2 py-4 d-flex flex-column">
+          <div id="carouselExampleControls" class="carousel slide mb-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/Block_02/01.jpg" class="d-block w-100" alt="slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/Block_02/02.jpg" class="d-block w-100" alt="slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/Block_02/03.jpg" class="d-block w-100" alt="slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="fs-3">Lorem ipsum dolor sit amet</p>
+          <button type="button" class="btn btn-danger align-self-start mt-auto">Learn more</button>
+        </div>
+        <div class="col-lg-3 col-md-5 border px-2 py-4 order-lg-last d-flex flex-column">
+          <p class="fs-3">Lorem ipsum</p>
+          <p class="text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo quos
+            exercitationem quae ad, voluptate sunt ex ipsam perspiciatis aperiam dolorem pariatur soluta itaque
+            molestiae possimus maiores unde voluptates doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Corporis, ipsam? At enim debitis esse fugiat eveniet quam blanditiis qui numquam natus? Possimus ut
+            asperiores, eaque commodi officia voluptatem mollitia quia.</p>
+          <button type="button" class="btn btn-danger align-self-start">Learn more</button>
+        </div>
+        <div class="col-lg-5 col-md-12 border px-2 py-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                  necessitatibus iste id. Itaque, quos tenetur. Laboriosam neque cumque nam pariatur totam, praesentium
+                  ipsam minus! Ipsum voluptates minima fugiat laudantium. In!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lorem ipsum
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                  neque vitae minus repellat quo quae, beatae iste quis recusandae accusantium dolore similique ipsa
+                  quibusdam accusamus iusto nostrum ullam aut a!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Lorem ipsum
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  expedita, error corrupti blanditiis accusamus ullam fuga consequatur nam similique quas beatae
+                  exercitationem atque quis, tempora iste reprehenderit inventore architecto facere.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form mb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form class="my-0 mx-auto">
+            <h3 class="fs-3 mb-4 text-center">Заполните форму</h3>
+            <div class="mb-3">
+              <label for="name" class="form-label">Ваше имя</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="form-label">Email адрес</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="form-label">Телефон</label>
+              <input type="tel" class="form-control" id="phone">
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <div class="mb-3">
+              <label for="textarea" class="form-label">Ваши пожелания</label>
+              <textarea class="form-control" id="textarea" placeholder="Ваши пожелания"></textarea>
+            </div>
+            <div class="form-btn d-flex gap-3 mt-4">
+              <button type="submit" class="btn btn-danger w-50">Отправить</button>
+              <button type="reset" class="btn btn-danger w-50">Сбросить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer bg-danger p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="list-none footer-list d-flex justify-content-between flex-wrap">
+            <li><a class="text-white footer-link py-1 px-2" href="#">Главная</a></li>
+            <li><a class="text-white footer-link py-1 px-2" href="#">О нас</a></li>
+            <li><a class="text-white footer-link py-1 px-2" href="#">Галлерея</a></li>
+            <li><a class="text-white footer-link py-1 px-2" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
